@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+
+.maindiv{
+	border: 1px solid black;
+	position: center;
+	margin-top: 5px;
+    height: 100vh;
+    background-color: #D4EFFF;
+}
+
+.header{
+	height: 15vh;
+/* 	border: 1px solid blue; */
+	background-color: #4863A0;
+}
+
+.maincontent{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+/* 	border: 1px solid red; */
+	height: 70vh;
+}
+
+.logindiv{
+/* 	border: 1px solid black; */
+	height: 69vh;
+	width: 68vh;
+	margin-left: 10vh;
+}
+
+.signupdiv{
+/* 	border: 1px solid black; */
+	margin-left: 5px;
+	height: 69vh;
+	width: 68vh;
+}
+
+.logincontent{
+	position: center:
+	border: 1px solid black;
+	margin-left: 60px;
+	margin-top: 60px;
+}
+
+.signupcontent{
+	position: center:
+	border: 1px solid black;
+	margin-left: 60px;
+	margin-top: 60px;
+}
+
+h4{
+	font-family: Bradley Hand ITC; 
+	font-size: 30px; 
+	font-weight: bold;
+	position: fixed;
+	margin-left: 85vh;
+}
+
+.blogcontent{
+	font-family: Calibri;
+	margin-left: 20px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 65vh;
+}
+
+span{
+	font-family: Calibri;
+}
+
+#submitbutton{
+	font-family: Calibri;
+	font-size: 14px;
+}

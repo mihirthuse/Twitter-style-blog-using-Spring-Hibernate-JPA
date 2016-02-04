@@ -1,0 +1,4 @@
+/*C3*/SET SCHEMA PUBLIC
+INSERT INTO USERTABLE VALUES(1,'abc','abc                           ','abc                           ','abc')
+COMMIT
+DISCONNECT

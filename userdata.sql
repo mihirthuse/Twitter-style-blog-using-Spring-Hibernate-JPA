@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS usertable;
+CREATE TABLE usertable(
+	  userId INTEGER NOT NULL IDENTITY,
+      Username VARCHAR(30) NOT NULL UNIQUE,
+	  fname CHAR(30),
+      lname CHAR(30),
+      Password VARCHAR(30) NOT NULL
+);
+DROP TABLE IF EXISTS userposts;
+CREATE TABLE userposts(
+	  blogId INTEGER NOT NULL IDENTITY,
+	  Username VARCHAR(30) NOT NULL,
+	  Title VARCHAR(30) NOT NULL,
+	  Description VARCHAR(140) NOT NULL,
+	  Date TIMESTAMP(8) NOT NULL
+);
